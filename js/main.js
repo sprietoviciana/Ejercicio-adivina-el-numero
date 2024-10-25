@@ -14,7 +14,7 @@ function getRandomNumber(max) {
 
 function incrementTries() {
   tries++;
-  numberTry.innerHTML = tries;
+  numberTry.innerHTML = `Numero de intentos ${tries}`;
 }
 
 function handleclick(event) {
